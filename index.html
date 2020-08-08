@@ -1,26 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
 
-  <body>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<head>
+  <meta charset="UTF-8">
+  <title>Fork Me! FCC: Test Suite Template</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
 
-    <!--
+<body>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <div id="page-wrapper">
+    <header id="header">
+      <div class="logo">
+        <img id="header-img" src="https://pluspng.com/img-png/beach-png-beach-png-clipart-png-image-2400.png"
+          alt="original trombones logo" />
+      </div>
 
-    Hello Camper!
+      <nav id="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="#tourist_sites">Tourist sites</a></li>
+          <li><a class="nav-link" href="#i_want_to_book">I want to book</a></li>
+          <li><a class="nav-link" href="#promotions">Promotions</a></li>
+        </ul>
+      </nav>
+    </header>
 
-    For now, the test suite only works in Chrome!
-    Please read the README below in the JS Editor before beginning.
-    Feel free to delete this message once you have read it.
-    Good luck and Happy Coding!
+    <div class="container"></div>
 
-    - The freeCodeCamp Team
+    <section id="hero">
+      <h2>Give yourself an exotic vacation</h2>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input name="email" id="email" type="email" placeholder="put your email" required />
+        <input id="submit" type="submit" value="The adventure begins" class="btn" />
+      </form>
+    </section>
 
-    -->
-    <script  src="js/index.js"></script>
-  </body>
+    <div class="container">
+      <section id="tourist_sites">
+        <div class="grid">
+          <div class="icon"><i class="fa fa-3x fa-paper-plane-o"></i></div>
+          <div class="desc">
+            <h2>Dream places</h2>
+            <p>
+              Meet with us incredible places in Venezuela, the best beaches and islands, dream with us.
+            </p>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="icon"><i class="fa fa-3x fa-ship"></i></div>
+          <div class="desc">
+            <h2>The best service</h2>
+            <p>
+              Feel like a king with us, we offer you the best service so that you feel always attended.
+            </p>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="icon">
+            <i class="fa fa-3x fa-beer" aria-hidden="true"></i>
+          </div>
+          <div class="desc">
+            <h2>Parties and cocktails</h2>
+            <p>
+              Enjoy the best parties and cocktails, with us there is no room for boredom, have a great time with us
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="i_want_to_book">
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/OvUg3RpV8oI" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </section>
+      <section id="promotions">
+        <div class="product" id="La Tortuga_island">
+          <div class="level">La Tortuga Island</div>
+          <h2>$150</h2>
+          <ol>
+            <li>Meet with us a heavenly </li>
+            <li>place, full of the </li>
+            <li>beauty of the </li>
+            <li>Caribbean</li>
+          </ol>
+          <button class="btn">Know it</button>
+        </div>
+        <div class="product" id="bass">
+          <div class="level">Los roques archipelago</div>
+          <h2>$250</h2>
+          <ol>
+            <li>Some call it heaven on earth, </li>
+            <li>let yourself be amazed by its </li>
+            <li>incredible blue sky and its</li>
+            <li>reflection in crystal clear waters</li>
+          </ol>
+          <button class="btn">Know it</button>
+        </div>
+        <div class="product" id="valve">
+          <div class="level">Angel Falls</div>
+          <h2>$350</h2>
+          <ol>
+            <li>This waterfall is the </li>
+            <li>largest in the world and is </li>
+            <li>surrounded by lush nature </li>
+            <li>and wrapped in magic</li>
+          </ol>
+          <button class="btn">Know it</button>
+        </div>
+      </section>
+      <footer>
+        <ul>
+          <li><a href="#">Know our terms</a></li>
+          <li><a href="#">Get in contact with us</a></li>
+        </ul>
+        <span>Copyright 2020, Venezuela travel</span>
+      </footer>
+    </div>
+  </div>
+  <script src="js/index.js"></script>
+</body>
+
 </html>
