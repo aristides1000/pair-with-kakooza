@@ -1,4 +1,4 @@
-@import "https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap";
 
         * {
             margin: 0;
@@ -7,8 +7,8 @@
         }
 
         body {
-            background-color: rgb(212, 254, 255);
-            font-family: 'Indie Flower', cursive;
+            background-color: rgb(217, 255, 212);
+            font-family: 'Antic Slab', cursive;
         }
 
         #page-wrapper {
@@ -54,7 +54,7 @@
             display: flex;
             justify-content: space-around;
             align-items: center;
-            background-color: rgb(175, 252, 255);
+            background-color: rgb(194, 255, 175);
         }
 
         @media (max-width: 600px) {
@@ -152,11 +152,12 @@
             height: 30px;
             margin: 15px 0;
             border: 0;
-            background-color: rgb(0, 255, 255);
+            background-color: rgb(9, 255, 0);
+            font-family: 'Antic Slab', cursive;
         }
 
         #hero input[type="submit"]:hover {
-            background-color: #b8d1ff;
+            background-color: #b8ffe7;
             transition: background-color 1s;
         }
 
@@ -176,7 +177,7 @@
             justify-content: center;
             height: 125px;
             width: 20vw;
-            color: rgb(0, 255, 255);
+            color: rgb(9, 255, 0);
         }
 
         @media (max-width: 550px) {
@@ -239,7 +240,7 @@
         }
 
         .product>.level {
-            background-color: rgb(130, 213, 224);
+            background-color: rgb(152, 224, 130);
             color: black;
             padding: 15px 0;
             width: 100%;
@@ -262,12 +263,12 @@
         .product>button {
             border: 0;
             margin: 15px 0;
-            background-color: rgb(0, 255, 255);
+            background-color: rgb(0, 255, 34);
             font-weight: 400;
         }
 
         .product>button:hover {
-            background-color: #b8d1ff;
+            background-color: #b8ffd3;
             transition: background-color 1s;
         }
 
@@ -286,7 +287,7 @@
 
         footer {
             margin-top: 30px;
-            background-color: rgb(130, 213, 224);
+            background-color: rgb(130, 224, 169);
             padding: 20px;
         }
 
